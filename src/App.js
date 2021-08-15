@@ -3,7 +3,6 @@ import Board from './components/Board';
 import History from './components/History';
 import StatusMessage from './components/StatusMessage';
 import { calculateWinner } from './helpers';
-
 import './styles/root.scss';
 
 const NEW_GAME = [{ board: Array(9).fill(null), isXNext: true }];
